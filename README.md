@@ -267,6 +267,12 @@ var out = flattenObject( obj, {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/flatten-array`][@stdlib/utils/flatten-array]: flatten an array.
+
 </section>
 
 <!-- /.related -->
@@ -329,6 +335,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-flatten-object/main/LICENSE
 
 [@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy
+
+<!-- <related-links> -->
+
+[@stdlib/utils/flatten-array]: https://github.com/stdlib-js/utils-flatten-array
+
+<!-- </related-links> -->
 
 </section>
 
