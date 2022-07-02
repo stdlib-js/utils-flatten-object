@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.flattenObject;
+})();
 })();
 </script>
 ```
@@ -212,6 +214,7 @@ The function accepts the same `options` as [`flattenObject()`](#flatten-object).
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function noop() {
     // Do nothing...
@@ -279,6 +282,7 @@ var out = flattenObject( obj, {
     }
 */
 
+})();
 })();
 </script>
 </body>
@@ -372,11 +376,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-flatten-object/main/LICENSE
 
-[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy/tree/umd
+[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/utils/flatten-array]: https://github.com/stdlib-js/utils-flatten-array/tree/umd
+[@stdlib/utils/flatten-array]: https://github.com/stdlib-js/utils-flatten-array/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
