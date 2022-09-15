@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var string2buffer = require( '@stdlib/buffer-from-string' );
 var Float64Array = require( '@stdlib/array-float64' );
-var flattenObject = require( './../lib/flatten_object.js' );
+var flattenObject = require( './../lib' );
 
 
 // TESTS //
@@ -371,7 +371,7 @@ tape( 'the function ignores primitives and "exotic" objects', function test( t )
 			'b': 5,
 			'c': true,
 			'd': null,
-			'e': undefined,
+			'e': void 0,
 			'f': /.*/,
 			'g': new Date(),
 			'h': function noop() {},
