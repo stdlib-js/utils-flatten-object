@@ -279,7 +279,7 @@ var out = flattenObject( obj, {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/flatten-array`][@stdlib/utils/flatten-array]</span><span class="delimiter">: </span><span class="description">flatten an array.</span>
+-   <span class="package-name">[`@stdlib/utils-flatten-array`][@stdlib/utils/flatten-array]</span><span class="delimiter">: </span><span class="description">flatten an array.</span>
 
 </section>
 
