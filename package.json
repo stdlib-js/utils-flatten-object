@@ -51,7 +51,7 @@
     "@stdlib/utils-keys": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.1.0",
+    "@stdlib/array-float64": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/buffer-from-string": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
