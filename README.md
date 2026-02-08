@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flattenObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@esm/index.mjs';
+import flattenObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@v0.2.3-esm/index.mjs';
 ```
 
 <a name="flatten-object"></a>
@@ -204,7 +204,7 @@ The function accepts the same `options` as [`flattenObject()`](#flatten-object).
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import string2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-string@esm/index.mjs';
-import flattenObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@esm/index.mjs';
+import flattenObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@v0.2.3-esm/index.mjs';
 
 function noop() {
     // Do nothing...
