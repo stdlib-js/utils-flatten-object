@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-flatten-object",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Flatten an object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,23 +37,23 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.2.2",
-    "@stdlib/assert-is-array": "^0.2.2",
-    "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
-    "@stdlib/assert-is-object-like": "^0.2.2",
-    "@stdlib/assert-is-plain-object": "^0.2.2",
-    "@stdlib/assert-is-string": "^0.2.2",
-    "@stdlib/constants-float64-max": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/assert-has-own-property": "^0.2.3",
+    "@stdlib/assert-is-array": "^0.2.3",
+    "@stdlib/assert-is-boolean": "^0.2.3",
+    "@stdlib/assert-is-nonnegative-integer": "^0.2.3",
+    "@stdlib/assert-is-object-like": "^0.2.3",
+    "@stdlib/assert-is-plain-object": "^0.2.3",
+    "@stdlib/assert-is-string": "^0.2.3",
+    "@stdlib/constants-float64-max": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/utils-copy": "^0.2.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
-    "@stdlib/utils-keys": "^0.2.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
+    "@stdlib/utils-keys": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.2.2",
-    "@stdlib/buffer-from-string": "^0.2.2",
+    "@stdlib/array-float64": "^0.2.3",
+    "@stdlib/buffer-from-string": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
