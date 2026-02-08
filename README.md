@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import flattenObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-flatten-object/tags). For example,
+
+```javascript
 import flattenObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@v0.2.3-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@esm/index.mjs';
 ```
 
 <a name="flatten-object"></a>
@@ -204,7 +209,7 @@ The function accepts the same `options` as [`flattenObject()`](#flatten-object).
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import string2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-string@esm/index.mjs';
-import flattenObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@v0.2.3-esm/index.mjs';
+import flattenObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-flatten-object@esm/index.mjs';
 
 function noop() {
     // Do nothing...
